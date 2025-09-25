@@ -1,0 +1,33 @@
+# Delta Central Carnival with Agofure — Website
+
+A clean, single‑page site you can deploy to GitHub Pages, Netlify, or any shared host.
+
+## Files
+- `index.html` — the page
+- `styles.css` — minimal, modern CSS (no external frameworks)
+- `script.js` — mobile nav + live countdown
+- `assets/` — placeholder images, favicon, and OG image
+
+## Quick Start
+Open `index.html` in a browser. Edit text and replace images in `assets/`.
+
+## Deploy
+**GitHub Pages**
+1. Create a new repo and push these files.
+2. In GitHub → Settings → Pages → set Branch: `main` / `/root`.
+3. Wait for the site URL to appear.
+
+**Netlify**
+1. Drag‑and‑drop the folder onto app.netlify.com or connect the repo.
+
+**cPanel / Shared Hosting**
+1. Upload the contents of the folder to your `public_html` (or web root).
+
+## Forms
+The RSVP form is wired to [formsubmit.co](https://formsubmit.co) using your email `deltacentralcarnival@gmail.com`.
+- To avoid spam, set it up at least once by submitting a test form, then follow any confirmation email from FormSubmit.
+
+## Customize
+- Colors are defined in `:root` CSS variables.
+- Replace images in `assets/` with your real photos (keep names or update paths).
+- Update contact phone/email in the **Contact** section.
